@@ -32,7 +32,7 @@ header {
 #buscar {
 
     flex-grow: 1;
-    padding: 0.5rem;
+    padding: 0.4rem;
     border-radius: 5px;
     border: none;
     outline: none;
@@ -49,7 +49,7 @@ header {
     background-color: transparent;
     border: none;
     position: absolute;
-    right: 140px;
+    right: 150px;
 
 }
 
@@ -101,4 +101,17 @@ nav a:first-child {
     color: var(--branco);
     padding: 1rem;
     text-align: center; 
+}
+
+.img-search {
+    width: 24px; 
+    object-fit: contain;
+   
+}
+
+.btn-transparent {
+    background-color: transparent;
+    border: none;
+    cursor: pointer; 
+    padding: 0; 
 }
