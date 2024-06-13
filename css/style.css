@@ -1,6 +1,6 @@
 :root {
     --cor-primaria: #F464C3;
-    --cor-secudaria: #3D1C31;
+    --cor-secundaria: #3D1C31;
     --cor-tres: #FDACE0;
     --branco: white;
     --preto: black;
@@ -89,9 +89,9 @@ nav a:first-child {
 }
 
 .card {
-    border: 1px solid var(--cor-secudaria);
+    border: 1px solid var(--cor-secundaria);
     border-radius: 8px;
-    background-color: var(--cor-secudaria);
+    background-color: var(--cor-secundaria);
 }
 
 .card-img img {
