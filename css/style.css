@@ -96,16 +96,18 @@ nav a:first-child {
 
 .card-img img {
     border-radius: 8px 8px 0 0;
+
 }
 
 .card-content {
+
     color: var(--branco);
     padding: 1rem;
     text-align: center; 
 }
 
 .img-search {
-    width: 24px; 
+    width: 25px; 
     object-fit: contain;
    
 }
@@ -116,3 +118,41 @@ nav a:first-child {
     cursor: pointer; 
     padding: 0; 
 }
+
+.card {
+    background-color: #F464C3;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: var(--cor-secudaria);
+    justify-content: var(--cor-secudaria);
+    text-align: center;
+}
+
+.card h2 {
+    font-family: Helvetica;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.card button {
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-color:aqua;
+    color: white;
+}
+
+
+
